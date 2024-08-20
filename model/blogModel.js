@@ -1,4 +1,4 @@
-const mongoose = require('mongose')
+const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const blogSchema = new Schema({
@@ -10,7 +10,7 @@ const blogSchema = new Schema({
   type : String
   },
   description : {
-    type : Text
+    type : String
   },
   image : {
     type : String
